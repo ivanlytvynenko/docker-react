@@ -5,10 +5,7 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - 8080:80
-    volumes:
-      - .:/app
-      - /app/node_modules
+      - 80:80
     restart: always
 
 
